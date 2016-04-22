@@ -8,6 +8,7 @@
 * Fringe indicators highlight which sexps have been loaded. Disable it with `cider-use-fringe-indicators`.
 * New command: `cider-inspect-last-result`.
 * `cider-cljs-lein-repl` now also supports figwheel.
+* After connecting a ClojureScript REPL, CIDER will try to figure out if it's being served on a port and will offer to open it on a browser.
 
 ### Changes
 
